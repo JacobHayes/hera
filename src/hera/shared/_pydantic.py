@@ -23,6 +23,7 @@ except ImportError:
 __all__ = [
     "BaseModel",
     "Field",
+    "PydanticBaseModel",  # Export for serialization.py to cover user-defined models
     "root_validator",
     "validate_arguments",
     "validator",
