@@ -6,9 +6,8 @@ from collections import defaultdict
 from dataclasses import dataclass, field
 from typing import Any, Callable, Dict, List, Optional, Type, TypeVar, Union
 
-from pydantic import root_validator
-
 from hera.auth import TokenGenerator
+from hera.shared._pydantic import root_validator
 
 from ._pydantic import BaseModel
 

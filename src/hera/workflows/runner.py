@@ -8,9 +8,9 @@ import os
 from pathlib import Path
 from typing import Any, Callable, Dict, List, Tuple, Union, cast
 
-from pydantic import validate_arguments
 from typing_extensions import get_args, get_origin
 
+from hera.shared._pydantic import validate_arguments
 from hera.shared.serialization import serialize
 from hera.workflows import Artifact, Parameter
 from hera.workflows.artifact import ArtifactLoader

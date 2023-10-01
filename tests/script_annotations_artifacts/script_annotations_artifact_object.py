@@ -3,10 +3,10 @@ try:
 except ImportError:
     from typing_extensions import Annotated  # type: ignore
 
-from pydantic import BaseModel
 from tests.helper import ARTIFACT_PATH
 
 from hera.shared import global_config
+from hera.shared._pydantic import BaseModel
 from hera.workflows import Workflow, script
 from hera.workflows.artifact import Artifact, ArtifactLoader
 from hera.workflows.steps import Steps
