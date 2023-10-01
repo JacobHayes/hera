@@ -8,7 +8,7 @@ from typing import Any, Optional, Union
 from pydantic import root_validator, validator
 
 from hera.shared import global_config
-from hera.shared._base_model import BaseModel as _BaseModel
+from hera.shared._pydantic import BaseModel as _BaseModel
 from hera.workflows.models import (
     ConfigMapKeySelector as _ModelConfigMapKeySelector,
     EnvVar as _ModelEnvVar,

@@ -3,7 +3,7 @@ from typing import Dict, Optional, Union
 
 from pydantic import root_validator
 
-from hera.shared._base_model import BaseModel as _BaseModel
+from hera.shared._pydantic import BaseModel as _BaseModel
 from hera.workflows.models import ResourceRequirements as _ModelResourceRequirements
 from hera.workflows.validators import validate_storage_units
 

@@ -14,7 +14,7 @@ except ImportError:
 from pydantic import validator
 
 from hera.exceptions import NotFound
-from hera.shared._base_model import BaseModel
+from hera.shared._pydantic import BaseModel
 from hera.workflows._mixins import ModelMapperMixin
 from hera.workflows.models import (
     ObjectMeta,

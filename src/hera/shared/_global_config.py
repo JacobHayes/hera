@@ -10,7 +10,7 @@ from pydantic import root_validator
 
 from hera.auth import TokenGenerator
 
-from ._base_model import BaseModel
+from ._pydantic import BaseModel
 
 TBase = TypeVar("TBase", bound="BaseMixin")
 TypeTBase = Type[TBase]
